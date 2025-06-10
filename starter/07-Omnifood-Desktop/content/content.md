@@ -138,5 +138,5 @@ Privacy & terms
 - Meals (and list of diets)
 - Testimonials + Gallery
 - Pricing + Features
-- CTA
+- CTA (call to action)
 - Footer
