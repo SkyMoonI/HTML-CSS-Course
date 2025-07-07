@@ -160,6 +160,10 @@ li:nth-child(even) {
 article p:first-child {
   color: red;
 }
+/*
+ article p:first-of-type {
+  color: red;
+} */
 
 /* Styling links */
 a:link {

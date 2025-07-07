@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox study</title>
+
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify content is in the main axis */
+        justify-content: center;
+        /* align items is in the cross axis */
+        align-content: center;
+        /* align items is in the cross axis */
+        align-items: center;
+        /* justify items is in the main axis */
+        justify-items: center;
+        gap: 20px;
+
+        height: 100vh;
+      }
+
+      .el {
+        background-color: blueviolet;
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+      }
+
+      .el--1 {
+        background-color: orangered;
+        flex: 1 0 200px;
+      }
+      .el--2 {
+        background-color: green;
+        flex: 2;
+        align-self: flex-end;
+      }
+      .el--3 {
+        background-color: goldenrod;
+        flex: 3;
+      }
+      .el--4 {
+        background-color: palevioletred;
+        flex: 4;
+      }
+      .el--5 {
+        background-color: steelblue;
+        flex: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="el el--1"></div>
+      <div class="el el--2"></div>
+      <div class="el el--3"></div>
+      <div class="el el--4"></div>
+      <div class="el el--5"></div>
+    </div>
+  </body>
+</html>
